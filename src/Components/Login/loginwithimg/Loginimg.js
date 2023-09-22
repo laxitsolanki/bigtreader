@@ -1,6 +1,6 @@
 import React from "react";
 import "../loginwithimg/loginwithimg.css";
-
+// import loginbg from "../../../"
 const Loginimg = () => {
     
   return (
@@ -8,7 +8,7 @@ const Loginimg = () => {
     <div className="imges">
       <p className="text">Doing business in middle east <br/> made easy</p>
       <img
-        src={require("../../../asets/Group 427321406.png")}
+        src={require("../../../asets/Frame 34.png")}
         className="img"
         alt=""
         srcset=""
@@ -25,10 +25,18 @@ const Loginimg = () => {
             <div className="h2">Please login your account to continue.</div>
             <form action="" className="form">
             <img src={require('../../../asets/Message.png')} alt="" srcset="" />
+            <span class="vl"></span>
                 <input type="email" placeholder="Email address" className="input"  /><br/>
                 <img src={require('../../../asets/Lock.png')} alt="" className="inputf" />
+                <span class="vl"></span>
                 <input type="password" placeholder="Password" className="input"  />
                 <img src={require('../../../asets/Hide.png')} alt="" srcset=""  />
+                <p><a href="#">Forget password?</a></p>
+                <button className="buttoncs">Log in</button><br />
+                <span className="span">Don’t have an Account?</span>
+                <a href="#" className="create">create account</a><br /><br /><br />
+                <span className="spana"><a href="#" className="logingest">login </a>
+                As Guest</span>
             </form>
     </div>
     </>

@@ -3,7 +3,7 @@
 }
 .img {
   width: 866px;
-  height: 925px;
+  height: 795px;
   flex-shrink: 0;
   margin-right: 38%;
   position:static;
@@ -21,6 +21,7 @@ display:list-item;
 padding-left: 18%;
 padding-top: 8%;
 }
+
 .main
 {
     margin-left: 50%;
@@ -90,6 +91,29 @@ padding-right: 22%;
     border-bottom: 2px solid red;
     width: 55%;
   }
-  .form{
-    /* padding-right: 0%; */
+  .vl {
+    border-right: 3px solid rgb(237, 49, 32);
+    height: 10px;
+    padding-left: 8px;
   }
+  .buttoncs {
+    background-color: #DC4326;
+    width: 25%;
+    height: 40px;
+    border-radius: 8px;
+    margin-bottom: 3%;
+  }
+  .create{
+    display: inline;
+    color: #DC4326;
+    padding-left: 5px;
+    text-decoration: none;
+    padding-top: 10%;
+  }
+.logingest{
+    text-decoration: none;
+}
+.spana{
+    color: #DC4326;
+    margin-top: 10%;
+}
