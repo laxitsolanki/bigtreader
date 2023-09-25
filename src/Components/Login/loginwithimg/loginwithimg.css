@@ -1,0 +1,119 @@
+.imges{
+    position: absolute;
+}
+.img {
+  width: 866px;
+  height: 795px;
+  flex-shrink: 0;
+  margin-right: 38%;
+  position:static;
+}
+.text{
+  position:absolute;
+    color: var(--C-4, #fff);
+text-align: center;
+font-family: Open Sans;
+font-size: 34px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+display:list-item; 
+padding-left: 18%;
+padding-top: 8%;
+}
+
+.main
+{
+    margin-left: 50%;
+    padding-top: 6%;
+}
+.logos {
+    width: 356px;
+    height: 55.241px;
+    flex-shrink: 0;
+}
+.e{
+    color: var(--Yellow-Color, #00394D);
+font-family: Open Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: 0.32px;
+}
+.ull{
+    padding-right: 50px;
+}
+
+.c{
+    color: var(--Yellow-Color, #00394D);
+font-family: Open Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: 0.32px;
+}
+.s{
+    color: var(--Yellow-Color, #00394D);
+font-family: Open Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: 0.32px;
+}
+
+.h1{
+    color: var(--Yellow-Color, #00394D);
+font-family: Open Sans;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+padding-top: 20px;
+padding-right: 40%;
+}
+.h2{
+    color: #6A6A6A;
+font-family: Open Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+padding-right: 22%;
+}
+.input {
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid red;
+    width: 55%;
+  }
+  .vl {
+    border-right: 3px solid rgb(237, 49, 32);
+    height: 10px;
+    padding-left: 8px;
+  }
+  .buttoncs {
+    background-color: #DC4326;
+    width: 25%;
+    height: 40px;
+    border-radius: 8px;
+    margin-bottom: 3%;
+  }
+  .create{
+    display: inline;
+    color: #DC4326;
+    padding-left: 5px;
+    text-decoration: none;
+    padding-top: 10%;
+  }
+.logingest{
+    text-decoration: none;
+}
+.spana{
+    color: #DC4326;
+    margin-top: 10%;
+}

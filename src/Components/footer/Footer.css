@@ -1,0 +1,41 @@
+.footer{
+        margin-top: 12.57rem;
+        display: block;
+        background-color:#00394D;
+        width: 100%;
+        height: 454px;
+        padding-top: 10%;
+}
+.lines{
+        padding-top: 10px;
+        color: #FFFFFF;
+        font-size: medium;
+}
+.image1{
+padding-top: 2%;
+}
+.qr{
+  color: #FFFFFF;      
+  padding-top: 3%;
+}
+.footer1{
+        display: block;
+        background-color:#022d3d;
+        width: 1440;      
+          height: 50px;
+}
+.follow{
+        padding-left: 10%;
+        color: #FFFFFF;
+        position: absolute;
+        padding-top: 5px;
+}
+.logoss{
+padding-top: 6px;
+padding-right: 25%;
+}
+.all
+{
+        color: #FFFFFF;
+        padding-left: 19%;
+}
