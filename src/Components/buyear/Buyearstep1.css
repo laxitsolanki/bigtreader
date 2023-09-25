@@ -3,7 +3,7 @@
 } */
 .img1 {
   width: 866px;
-  height: 795px;
+  height: 1000px;
   flex-shrink: 0;
   margin-right: 80%;
   position:static;
@@ -29,6 +29,7 @@
     margin-left: 7%;
     padding-top: 6%;
       flex: 1;
+      height: 1000px;
 
 }
 .logos {
@@ -71,21 +72,24 @@ padding-right: 35%;
 .radio1{
     background-color: #DC4326;
     display: inline-block;
-    width: 213px;
-    height: 48px;
-    top: 349px;
+    width: 200px;
+    height: 44px;
+    top: 10px;
     left: 832px;
+    margin-top: 4%;
     border-radius: 15px;
+    padding-top: 4%;
     border: 1px;
-    
 }
 .radio2{
     background-color: #DFDFDF;
     display: inline-block;
-    width: 213px;
-    height: 48px;
-    top: 349px;
+    width: 200px;
+    height: 44px;
+    font-size: large;
+    top: 450px;
     left: 832px;
+    padding-top: 3%;
     border-radius: 15px;
     border: 1px;
 }
@@ -101,5 +105,57 @@ border: none;
 border-bottom: 2px solid red;
 width: 55%;
 
+}
+.inputBussines{
+    /* width: 436px; */
+    height: 30px;
+    top: 451px;
+    left: 832px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid red;
+    width: 55%;
+}
+.inputnumber{
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid red;
+    width: 80px;
+}
+.inputnumber-main{
+    display: flex;
+    gap: 10px;
+}
+.number{
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid red;
+    width: 37%;
+}
+.iconphone{
+    height: 20%;
+    padding-top: 15px;
+}
+.Address1{
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid red;
+    width: 57%;
+}
+.city{
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid red;
+    width: 57%;
 }
 
