@@ -36,8 +36,26 @@ const Buyearstep2 = () => {
 
   <br/>
   <form action="">
-  <div className="h1">Business Details</div>
+  <div className="h1">Company Details</div>
+  <img src={require('../../asets/Call.png')} alt="" />
   <input type="tel" id="phone" name="phone" placeholder="Company telephone number" className='phone2' pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required /><br/>
+  <img src={require('../../asets/Message.png')} alt="" />
+  <input type="email" name="Email address" id="" className='phone2' placeholder='Email address' /><br/>
+  <img src={require("../../asets/Lock.png")} alt="" />
+  <input type="password" name="password" id="" className='phone2' placeholder='password' /><br/>
+  <img src={require("../../asets/Lock.png")} alt="" />
+  <input type="password" name="confirm password" className='phone2' placeholder='Confirm password' id="" /><br/>
+  <img src={require('../../asets/Group 427320767.png')} alt="" />
+<input type="text" name='option' className='phone2' placeholder='Trade license number (Optional)' /><br/>
+<img src={require('../../asets/Group 427320767.png')} alt="" />
+<input type="text" name='option' className='phone2' placeholder='Trade license expiry date (Optional)' />
+
+<div className="my">My business is not eligible for a VAT Certificate.</div><span><img src={require('../../asets/Tick Square.png')} alt="" /></span>
+
+
+
+
+
 <Link to="Buyear2" target="_blank">
 <button className='button'>Next</button>
       </Link>
