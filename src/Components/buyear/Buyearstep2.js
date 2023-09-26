@@ -116,13 +116,13 @@ const Buyearstep2 = () => {
           </Link>
 </div>
             </form>
-            <Link to="Buyearcreate" target="_blank">
+            <Link to="/Seller" target="_blank">
 <button className='button1'>create now</button>
       </Link>
       <div className='ittakes'>(It takes 2 days to verify your profile)</div>
 
       <span className="already">Already have an Account?</span>
-          <Link to="/Buyear2" className="create">
+          <Link to="/Seller" className="create">
           Login
           </Link>
     </div>  
