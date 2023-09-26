@@ -3,7 +3,7 @@
 } */
 .img1 {
   width: 866px;
-  height: 1000px;
+  height: 1240px;
   flex-shrink: 0;
   margin-right: 80%;
   position:static;
@@ -27,9 +27,9 @@
 .main1
 {
     margin-left: 7%;
-    padding-top: 6%;
+    padding-top: 3%;
       flex: 1;
-      height: 1000px;
+      height: 1200px;
 
 }
 .logos {
@@ -74,12 +74,14 @@ padding-right: 35%;
     display: inline-block;
     width: 200px;
     height: 44px;
+    font-size: large;
     top: 10px;
     left: 832px;
-    margin-top: 4%;
+    margin-top: 3%;
+    padding-top: 3%;
     border-radius: 15px;
-    padding-top: 4%;
     border: 1px;
+    padding-left: 24px;
 }
 .radio2{
     background-color: #DFDFDF;
@@ -87,11 +89,13 @@ padding-right: 35%;
     width: 200px;
     height: 44px;
     font-size: large;
-    top: 450px;
+    top: 10px;
     left: 832px;
     padding-top: 3%;
     border-radius: 15px;
     border: 1px;
+    padding-left: 24px;
+
 }
 .inputCompny{
     width: 436px;
@@ -158,4 +162,43 @@ width: 55%;
     border-bottom: 2px solid red;
     width: 57%;
 }
-
+.state{
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid red;
+    width: 57%;
+}
+.country{
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid red;
+    width: 57%;
+}
+.pincode{
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid red;
+    width: 57%;
+}
+.button{
+    width: 267px;
+    height: 55px;
+    background-color: #DC4326;
+margin-top: 30px;
+margin-left: 8%;
+margin-bottom: 6%;
+border-radius: 8px;
+}
+.already,create{
+    padding-left: 11%;
+    padding-top: 4%;
+}
+.buyer{
+    color: #DC4326;
+}
