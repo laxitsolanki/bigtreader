@@ -1,9 +1,26 @@
-import React from 'react'
+// import React from 'react'
 import '../buyear/Buyearstep2.css';
 import { Link } from "react-router-dom";
+import React, { useRef } from 'react';
+
 
 
 const Buyearstep2 = () => {
+
+  const fileInputRef = useRef(null);
+
+  const handleImageClick = () => {
+    // Trigger the click event of the hidden file input
+    fileInputRef.current.click();
+  };
+
+  const handleFileChange = (event) => {
+    const selectedFile = event.target.files[0];
+    if (selectedFile) {
+      console.log(`Selected file: ${selectedFile.name}`);
+      // You can perform further actions with the selected file here
+    }
+  };
   return (
     <>
     <div className='flex2'>
@@ -50,24 +67,65 @@ const Buyearstep2 = () => {
 <img src={require('../../asets/Group 427320767.png')} alt="" />
 <input type="text" name='option' className='phone2' placeholder='Trade license expiry date (Optional)' />
 
-<div className="my">My business is not eligible for a VAT Certificate.</div><span><img src={require('../../asets/Tick Square.png')} alt="" /></span>
-
-
-
-
-
-<Link to="Buyear2" target="_blank">
-<button className='button'>Next</button>
-      </Link>
+<div className="my">My business is not eligible for a VAT Certificate. 
+<input type="checkbox" id="vehicle1" name="vehicle1" value="Bike" className='checkbox'/>
+</div><br/>
+<img src={require('../../asets/Group 427320767.png')} alt="" />
+<input type="text" name='option' className='phone2' placeholder='Trade license expiry date (Optional)' />
+<div>
+<div className='choseop'>Upload document (CR Copy / Trade license copy/GST)<br/>
+(Optional)</div>
+<div className="clickable-image">
+      <img
+        src={require('../../asets/Group 17061.png')} // Replace with your image URL
+        alt="Click me"
+        
+        onClick={handleImageClick}
+      />
+      <input
+        type="file"
+        accept=".jpg, .jpeg, .png, .gif" // Specify the allowed file types
+        ref={fileInputRef}
+        style={{ display: 'none' }}
+        onChange={handleFileChange}
+      />
+      </div>
+<div className='choseop'>Upload document(Vat Certification/Tax Certification)<br/>
+(Optional)</div>
+<div className="clickable-image">
+<img
+        src={require('../../asets/Group 17061.png')} // Replace with your image URL
+        alt="Click me"
+        onClick={handleImageClick}
+      />
+      <input
+        type="file"
+        accept=".jpg, .jpeg, .png, .gif" // Specify the allowed file types
+        ref={fileInputRef}
+        style={{ display: 'none' }}
+        onChange={handleFileChange}
+      />
+</div>
+    </div>
   </form>
-  <span className="already">Already have an Account?</span>
+  <div>
+    <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike" className='checkbox10'/>
+  <span className="already1">Agree to user</span>
+          <Link to="/Buyear2" className="create">
+          Terms & Conditions and &nbsp;&nbsp;Privacy Policy
+          </Link>
+</div>
+            </form>
+            <Link to="Buyearcreate" target="_blank">
+<button className='button1'>create now</button>
+      </Link>
+      <div className='ittakes'>(It takes 2 days to verify your profile)</div>
+
+      <span className="already">Already have an Account?</span>
           <Link to="/Buyear2" className="create">
           Login
           </Link>
-    
-            </form>
-
-    </div>
+    </div>  
     </div>
     </>
   )

@@ -1,6 +1,6 @@
 .img2{
     width: 866px;
-    height: 1240px;
+    height: 1450px;
     flex-shrink: 0;
     margin-right: 80%;
     position:static;
@@ -26,7 +26,7 @@
       margin-left: 7%;
       padding-top: 3%;
         flex: 1;
-        height: 1200px;
+        height: 1400px;
   
   }
   .logos2 {
@@ -110,4 +110,43 @@ width: 55%;
 .my{
     width: 436px;
     height: 24px;
+}
+.clickable-image{
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: #D9D9D9;
+width: 436px;
+height: 160px;
+border: #F8F8F8;
+border-radius: 7%;
+border-style: dashed;
+}
+.choseop{
+    overflow-y: 957px;
+    overflow-x: 832px;
+}
+.button1{
+    background-color: #DC4326;
+    width: 267px;
+    height: 55px;
+    border-radius: 5%;
+    margin-top: 5%;
+    margin-left: 14%;
+    font-size: larger;
+    color: #fff;
+}
+.already1{
+    padding-left: 10px;
+}
+.ittakes{
+    padding-top: 5%;
+    color:#00394D;
+    padding-left: 14%;
+    overflow-y: 1586px;
+    overflow-x: 905px;
+    margin-bottom: 8%;
+}
+.already{
+    margin-left: 8%;
 }
