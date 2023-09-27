@@ -119,7 +119,7 @@ const Buyearstep1 = () => {
 <img src={require('../../asets/Group 427321427.png')} alt="" />
 <span class="vl"></span>
   <input type="phone" className='pincode' placeholder='Pincode/zip'  /><br/>
-<Link to="Buyear2" target="_blank">
+<Link to="/Buyear2" target="_blank">
 <button className='button'>Next</button>
       </Link>
   </form>

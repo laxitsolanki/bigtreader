@@ -1,12 +1,8 @@
 // import React from 'react'
-import '../buyear/Buyearstep2.css';
 import { Link } from "react-router-dom";
 import React, { useRef } from 'react';
 
-
-
-const Buyearstep2 = () => {
-
+const Sellerstep2 = () => {
   const fileInputRef = useRef(null);
 
   const handleImageClick = () => {
@@ -131,4 +127,4 @@ const Buyearstep2 = () => {
   )
 }
 
-export default Buyearstep2
+export default Sellerstep2
