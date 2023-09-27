@@ -15,7 +15,7 @@ const Otp = () => {
 
         <div className="step2">
           <img src={require("../../asets/Group 27.png")} alt="" />
-          <div>OTP Verification</div>
+          <div className="forgeth1"> OTP Verification</div>
           <span>We just sent you 6-Digit OTP at</span><span>988 036 1974</span>
          
           <div class="inputfield">
@@ -27,7 +27,7 @@ const Otp = () => {
         <input type="number" maxlength="1" class="input00"  /><br/>
       </div>
       <div>
-        <Link to="/#">
+        <Link to="/forgetpassword">
 <button className='buttonotp'>Confirm</button>
       </Link>
       </div>

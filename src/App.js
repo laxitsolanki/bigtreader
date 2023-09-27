@@ -6,7 +6,7 @@ import Seller from './Components/seller/Seller';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Seller2 from './Components/seller/Seller2';
 import Otp from './Components/seller/Otp';
-
+import Forgetpassword from './Components/seller/forgetpassword/forgetpassword';
 function App() {
   return (
     <div className="App">
@@ -18,6 +18,7 @@ function App() {
           <Route path="/Seller" element={<Seller/>} />
           <Route path="/Seller2" element={<Seller2/>} />
           <Route path="/Otp" element={<Otp/>} />
+          <Route path="/Forgetpassword" element={<Forgetpassword/>} />
         </Routes>
       </BrowserRouter>
       {/* <Login /> */}
