@@ -1,0 +1,59 @@
+.mainotp{
+  display: flex;width: 100%;
+}
+.step2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+}
+
+.inputfield {
+  width: 60%;
+  display: flex;
+  justify-content: space-around;
+}
+.input00 {
+  height: 3em;
+  width: 2em;
+  border: 2px solid #dad9df;
+  outline: none;
+  text-align: center;
+  font-size: 1.5em;
+  border-radius: 0.3em;
+  background-color: #ffffff;
+  outline: none;
+  /*Hide number field arrows*/
+  -moz-appearance: textfield;
+
+  /* top: 451px; */
+/* left: 832px; */
+padding: 12px 20px;
+margin: 8px 0;
+box-sizing: border-box;
+border: none;
+border-bottom: 2px solid red;
+}
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.buttonotp{
+  background-color: #DC4326;
+  width: 267px;
+  height: 55px;
+  border-radius: 5%;
+  margin-top: 5%;
+  /* margin-left: 1%; */
+  font-size: larger;
+  color: #fff;
+}
+.createotp{
+  text-decoration: none;
+ color: #6A6A6A;
+}
+.linklogin{
+  padding-top: 10%;
+}

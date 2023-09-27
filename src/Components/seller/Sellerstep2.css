@@ -1,0 +1,152 @@
+.img2{
+    width: 866px;
+    height: 1450px;
+    flex-shrink: 0;
+    margin-right: 80%;
+    position:static;
+  }
+  .flex2{
+      display: flex;
+  }
+  .text{
+      position:absolute;
+        color: var(--C-4, #fff);
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    display:list-item; 
+    padding-left: 15%;
+    padding-top: 3%;
+    }
+  .main2
+  {
+      margin-left: 7%;
+      padding-top: 3%;
+        flex: 1;
+        height: 1400px;
+  
+  }
+  .logos2 {
+      width: 356px;
+      height: 55.241px;
+      flex-shrink: 0;
+  }
+  .c{
+      color: var(--Yellow-Color, #00394D);
+  font-family: Open Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.32px;
+  }
+  .s{
+      color: var(--Yellow-Color, #00394D);
+  font-family: Open Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.32px;
+  }
+  
+  .h1{
+      font-display: bold;
+  }
+  .h1{
+      color: var(--Yellow-Color, #00394D);
+  font-family: Open Sans;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-top: 20px;
+  padding-right: 35%;
+  }
+  .radio1ss{
+    background-color: #DFDFDF;
+      display: inline-block;
+      width: 200px;
+      height: 44px;
+      font-size: large;
+      top: 10px;
+      left: 832px;
+      margin-top: 3%;
+      padding-top: 3%;
+      border-radius: 15px;
+      border: 1px;
+      padding-left: 24px;
+  }
+  .radio2ss{
+    background-color: #DC4326;
+    display: inline-block;
+      width: 200px;
+      height: 44px;
+      font-size: large;
+      top: 10px;
+      left: 832px;
+      padding-top: 3%;
+      border-radius: 15px;
+      border: 1px;
+      padding-left: 24px;
+  
+  }
+  .phone2{
+    width: 436px;
+height: 30px;
+top: 451px;
+left: 832px;
+padding: 12px 20px;
+margin: 8px 0;
+box-sizing: border-box;
+border: none;
+border-bottom: 2px solid red;
+width: 55%;
+
+}
+.my{
+    width: 436px;
+    height: 24px;
+}
+.clickable-image{
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: #D9D9D9;
+width: 436px;
+height: 160px;
+border: #F8F8F8;
+border-radius: 7%;
+border-style: dashed;
+}
+.choseop{
+    overflow-y: 957px;
+    overflow-x: 832px;
+}
+.button1{
+    background-color: #DC4326;
+    width: 267px;
+    height: 55px;
+    border-radius: 5%;
+    margin-top: 5%;
+    margin-left: 14%;
+    font-size: larger;
+    color: #fff;
+}
+.already1{
+    padding-left: 10px;
+}
+.ittakes{
+    padding-top: 5%;
+    color:#00394D;
+    padding-left: 14%;
+    overflow-y: 1586px;
+    overflow-x: 905px;
+    margin-bottom: 8%;
+}
+.already{
+    margin-left: 8%;
+}

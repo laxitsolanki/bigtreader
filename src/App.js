@@ -5,6 +5,7 @@ import Buyear2 from './Components/buyear/Buyear2';
 import Seller from './Components/seller/Seller';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Seller2 from './Components/seller/Seller2';
+import Otp from './Components/seller/Otp';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route path="/buyear2" element={<Buyear2/>} />
           <Route path="/Seller" element={<Seller/>} />
           <Route path="/Seller2" element={<Seller2/>} />
+          <Route path="/Otp" element={<Otp/>} />
         </Routes>
       </BrowserRouter>
       {/* <Login /> */}

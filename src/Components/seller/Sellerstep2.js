@@ -1,6 +1,7 @@
 // import React from 'react'
 import { Link } from "react-router-dom";
 import React, { useRef } from 'react';
+import '../seller/Sellerstep2.css';
 
 const Sellerstep2 = () => {
   const fileInputRef = useRef(null);
@@ -40,10 +41,10 @@ const Sellerstep2 = () => {
             <div className="h2">Please create your new account for.</div>
             <form action="" className="form">
 
-            <div className='radio1'>
+            <div className='radio1ss'>
             <input type="radio" name="radio" defaultValue="buyer" className='' /> Buyer
             </div>&nbsp;&nbsp;&nbsp;
-            <div className='radio2'>
+            <div className='radio2ss'>
   <input type="radio" name="radio" defaultValue="seller"  className=''/> seller
   </div>
 
@@ -112,7 +113,7 @@ const Sellerstep2 = () => {
           </Link>
 </div>
             </form>
-            <Link to="/Seller">
+            <Link to="/Otp">
 <button className='button1'>create now</button>
       </Link>
       <div className='ittakes'>(It takes 2 days to verify your profile)</div>
