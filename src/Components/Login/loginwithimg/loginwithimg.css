@@ -8,7 +8,7 @@
   margin-right: 38%;
   position:static;
 } */
-.text {
+.text1{
   position: absolute;
   color: var(--C-4, #fff);
   text-align: center;
@@ -18,8 +18,8 @@
   font-weight: 500;
   line-height: normal;
   display: list-item;
-  padding-left: 18%;
-  padding-top: 8%;
+  padding-left: 9%;
+  padding-top: 6%;
 }
 
 .main {
@@ -91,6 +91,7 @@
   border-bottom: 2px solid red;
   width: 83%;
   display: inline;
+  
 }
 .forget{
   align-items: center;

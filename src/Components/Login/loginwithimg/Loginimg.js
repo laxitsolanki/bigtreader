@@ -6,14 +6,15 @@ const Loginimg = () => {
   return (
     <div style={{ display: "flex" }}>
       <div className="imges">
-        <p className="text">
+        <p className="text1">
           Doing business in middle east <br /> made easy
         </p>
         <img
-          src={require("../../../asets/Frame 34.png")}
+          src={require("../../../asets/homebackground.png")}
           className="img"
           alt=""
           srcset=""
+        style={{width:"100%",height:"100%"}}
         />
       </div>
       <div className="main">

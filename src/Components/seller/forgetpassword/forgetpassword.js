@@ -15,6 +15,7 @@ const forgetpassword = () => {
 
         <div className="step2">
           <img src={require("../../../asets/Group 270.png")} alt="" />
+          <br/>
           <div className='forgeth1'>Forgot Password!</div>
           <div>
           <span>Please enter your email which associate <br/>
