@@ -25,12 +25,13 @@ const Sellerstep2 = () => {
       <p className="text">Doing business in middle east <br/> made easy</p>
       <img
         src={require("../../asets/Group 427321406.png")}
-        className="img2"
+        className="img1"
         alt=""
         srcset=""
+        style={{width:"100%",height:"100%"}}
       />
     </div>
-    <div className="main2">
+    <div className="main1">
     <img src={require("../../asets/Mask group.png")}  className="logos2" alt="" srcset="" />
      <ul className="ull">
                 <li>
@@ -114,14 +115,15 @@ const Sellerstep2 = () => {
 </div>
             </form>
             <Link to="/Otp">
-<button className='button1'>create now</button>
+<button className='button1seller'>create now</button>
       </Link>
-      <div className='ittakes'>(It takes 2 days to verify your profile)</div>
+      <div className='ittakesseller'>(It takes 2 days to verify your profile)</div>
 
-      <span className="already">Already have an Account?</span>
+      <span className="alreadyseller">Already have an Account?
           <Link to="/Seller" className="create">
           Login
           </Link>
+          </span>
     </div>  
     </div>
     </>

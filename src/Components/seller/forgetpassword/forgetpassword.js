@@ -10,7 +10,8 @@ const forgetpassword = () => {
       <Header/>
       <div className="mainotp">
         <div className="step1">
-          <img src={require("../../../asets/Frame 340.png")} alt="" />
+          <img src={require("../../../asets/Frame 340.png")} alt=""
+            style={{width:"100%",height:"100%"}} />
         </div>
 
         <div className="step2">

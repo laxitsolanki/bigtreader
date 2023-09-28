@@ -7,17 +7,18 @@ const Sellerstep1 = () => {
     <>
         <div className='flex2'>
 <div className="imges2">
-      <p className="text">Doing business in middle east <br/> made easy</p>
+      <p className="textseller">Doing business in middle east <br/> made easy</p>
       <img
         src={require("../../asets/Group 427321406.png")}
         className="img2"
         alt=""
         srcset=""
+          style={{width:"100%",height:"100%"}}
       />
     </div>   
 
-    <div className="main2">
-    <img src={require("../../asets/Mask group.png")}  className="logos2" alt="" srcset="" />
+    <div className="main2seller">
+    <img src={require("../../asets/Mask group.png")}  className="logos2seller" alt="" srcset="" />
      <ul className="ull">
                 <li>
                   <span className="e">Ecommerce</span> <span className="c">Commodity Trade</span> <span className="s">Service</span>

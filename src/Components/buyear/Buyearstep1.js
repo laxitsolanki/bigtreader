@@ -13,6 +13,7 @@ const Buyearstep1 = () => {
         className="img1"
         alt=""
         srcset=""
+        style={{width:"100%",height:"100%"}}
       />
     </div>
     <div className="main1">
