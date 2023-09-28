@@ -2,7 +2,21 @@
   display: flex;
   width: 100%;
 }
+.text1otp{
+  position: absolute;
+  color: var(--C-4, #fff);
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  display: list-item;
+  padding-left: 9%;
+  padding-top: 6%;
+}
 .step2{
+  margin-top: 0%;
   display: flex;
   flex-direction: column;
   align-items: center;

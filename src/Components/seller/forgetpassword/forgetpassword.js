@@ -10,6 +10,9 @@ const forgetpassword = () => {
       <Header/>
       <div className="mainotp">
         <div className="step1">
+        <p className="text1f">
+          Doing business in middle east <br /> made easy
+        </p>
           <img src={require("../../../asets/Frame 340.png")} alt=""
             style={{width:"100%",height:"100%"}} />
         </div>
